@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(91, 91, 219, 0.5);
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 10%;
+}
+
+#title {
+  margin-bottom: 2%;
+  font-weight: 700;
+}
+
+#description {
+  font-style: italic;
+  font-size: larger;
+}
+
+main {
+  background-color: rgba(28, 28, 66, 0.7);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+}
+
+label {
+  font-size: large;
+  display: block;
+  margin-bottom: 3%;
+}
+
+select {
+  display: block;
+  width: 100%;
+}
+
+#name,
+#number,
+#email,
+#comments,
+#dropdown,
+#dropdown2,
+#radio,
+#checkboxes {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 90%;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    width: 95%;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
